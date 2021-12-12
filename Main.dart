@@ -9,7 +9,7 @@ se não for, ele é menor de idade. */
 
 var imput = stdin.readLineSync();
 //esse stdin.read.. é a forma de dizer que a variavel imput vai receber uma entrada do usuário.
-var idade =  int.parse(imput);
+var idade =  int.parse(imput!);
 //a variavel idade esta convertendo a string recebida do usuário para um valor inteiro.
 
 
