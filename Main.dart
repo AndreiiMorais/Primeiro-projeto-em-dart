@@ -14,8 +14,10 @@ se não for, ele é menor de idade. */
 //a variavel idade esta convertendo a string recebida do usuário para um valor inteiro.
   print("A idade digitada é: ");
   if (idade >= 18) {
+  
     print("Maior de idade");
   } else {
+    //no dart tambem podem ser adicionados varios else if para colocar mais condições.
     print("Menor de idade");
   }
 }
